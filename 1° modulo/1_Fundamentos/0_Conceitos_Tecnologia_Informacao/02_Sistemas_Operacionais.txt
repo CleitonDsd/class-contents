@@ -1,0 +1,57 @@
+S.O 
+
+Um sistema operacional é o programa principal do computador ou celular. Ele faz o aparelho funcionar, gerenciando tudo o que acontece, como abrir programas, salvar arquivos e conectar dispositivos (como teclado e internet).
+
+Exemplos comuns de sistemas operacionais são Windows, macOS, Android e Linux. Sem um sistema operacional, o computador ou celular não saberia o que fazer!
+
+
+O kernel é a parte central do sistema operacional. Ele é responsável por gerenciar o hardware do computador (como o processador, memória e dispositivos de entrada/saída) e garantir que os programas rodem de forma eficiente e segura.
+
+
+Além do kernel, um sistema operacional inclui:
+
+    Shell: A interface entre o usuário e o sistema, que pode ser gráfica (GUI) ou de linha de comando (CLI).
+    Gerenciador de Arquivos: Organiza e acessa arquivos e pastas no dispositivo.
+    Bibliotecas e APIs: Conjunto de funções e regras para facilitar o desenvolvimento de aplicativos.
+    Drivers de Dispositivos: Permitem que o sistema se comunique com o hardware.
+    Gerenciadores de Processos: Controlam os programas em execução e distribuem o uso da CPU.
+    Gerenciamento de Memória: Aloca e libera memória para os processos.
+    Gerenciamento de Rede: Controla as conexões de rede e comunicação entre dispositivos.
+    Segurança e Controle de Acesso: Protege o sistema e os dados contra acessos não autorizados e malware.
+
+Exemplos de Sistemas Operacionais:
+
+    Windows – Desenvolvido pela Microsoft, amplamente usado em computadores pessoais.
+    Linux – Um sistema de código aberto usado em servidores, dispositivos embarcados e desktops.
+    macOS – Desenvolvido pela Apple para seus computadores Mac.
+    Android – Baseado em Linux, usado em dispositivos móveis.
+    iOS – Desenvolvido pela Apple para iPhones e iPads.
+
+
+
+No Windows:
+
+Informações do sistema:
+
+    systeminfo – Exibe informações detalhadas sobre o sistema operacional, incluindo a versão, o tempo de atividade e a memória.
+
+Ver a versão do Windows:
+
+    winver – Exibe uma janela com a versão e a compilação do Windows.
+
+Gerenciar processos:
+
+    tasklist – Exibe uma lista dos processos em execução.
+
+Ver a utilização de disco:
+
+    wmic logicaldisk get size,freespace,caption – Mostra o espaço total e disponível dos discos.
+
+Informações sobre a rede:
+
+    ipconfig – Exibe detalhes da configuração de rede, como IP e gateways.
+    ping [endereço] – Verifica a conectividade com um servidor ou outro dispositivo na rede.
+    
+Gerenciar drivers:
+
+driverquery – Exibe uma lista de drivers instalados no sistema.
